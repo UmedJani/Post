@@ -1,0 +1,121 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+  background-image: url(../img/i.webp);
+}
+.main-content {
+ 
+}
+.post {
+    width: 970px;
+    margin: 0 auto;
+    padding:120px 155px 95px 155px ;
+}
+.post-title {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    color: #000218;
+}
+.post-lead {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+.post-img {
+    
+    display: block;
+    margin-bottom: 40px;
+}
+.post-text {
+    margin-bottom: 55px;
+}
+h2 {
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+h3 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+p {
+    width: 700px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #000218;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.broker-list {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    margin-top: 15px;
+
+}
+.broker-list li {
+    margin-top: 15px;
+}
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000218;
+    text-decoration: none;
+}
+time {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000218;
+}
+footer{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top:  40px;
+    border-top: 1px solid #000218;
+    border-bottom:  1px solid #000218;
+    padding: 30px;
+}
+.footer-content{
+    max-width: 920px;
+}
+.footer-list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    Weight: 400;
+    size: 16px;
+    Line height: 20px;
+    margin-bottom: 25px;
+}
+.footer-list li {
+    border: 1px solid #5974FF
+}
+.footer-list a {
+    display: block;
+    padding: 5px 10px 5px 10px;
+    
+}
+.footer-list a:hover {
+    background-color: rgb(26, 148, 219);
+    opacity: 0.7;
+}
+.footer-list a:active {
+    opacity: 0.5;
+}
+.share {
+    padding-top: 15px;
+}
+.share:hover {
+    opacity: 0.7;
+}
+.share:active {
+    opacity: 0.5;
+}
